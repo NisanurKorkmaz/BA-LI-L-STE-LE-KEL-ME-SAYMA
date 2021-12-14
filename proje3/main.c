@@ -1,9 +1,9 @@
-//
 //  main.c
 //  PROLAB-3
 //
 //  Created by Nisanur Korkmaz on 24/12/2020.
 //
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -252,7 +252,6 @@ int main()
     listMyList();
 
     fclose(dosya);
-//    _getch();
-//    free(malloc);
+
     return 0;
 }
