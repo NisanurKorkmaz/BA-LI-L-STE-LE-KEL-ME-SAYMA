@@ -197,7 +197,7 @@ int main()
     char str[20];
     int count  = 0;
 
-    while(fscanf(dosya,"%s ",str)!=EOF)//metinin sonuna kadar gider
+    while(fscanf(dosya,"%s ",str)!=EOF) //metinin sonuna kadar gider
     {
         if(count==0)
         {
@@ -249,7 +249,7 @@ int main()
     myList();
 
     printf("\n********* Son Hali Listele:\n\n");
-    listMyList();
+    listMyList(); // Bagli listenin son halini yazdirir 
 
     fclose(dosya);
 
